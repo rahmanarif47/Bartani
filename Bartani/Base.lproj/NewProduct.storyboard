@@ -105,13 +105,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-Aj-GxZ">
-                                <rect key="frame" x="20" y="642" width="49" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="47" id="PxA-dM-7BH"/>
-                                    <constraint firstAttribute="height" constant="31" id="VC5-Po-Em6"/>
-                                    <constraint firstAttribute="width" secondItem="3Xn-Aj-GxZ" secondAttribute="height" multiplier="47:31" id="wHk-1Y-1qU"/>
-                                </constraints>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Xn-Aj-GxZ">
+                                <rect key="frame" x="20" y="640.5" width="51" height="32.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lk-yA-zGc">
                                 <rect key="frame" x="20" y="807" width="374" height="40"/>
@@ -131,8 +127,6 @@
                             <constraint firstItem="3Lk-yA-zGc" firstAttribute="leading" secondItem="N83-co-eXL" secondAttribute="leading" constant="20" id="7w2-56-3Yo"/>
                             <constraint firstItem="N83-co-eXL" firstAttribute="bottom" secondItem="3Lk-yA-zGc" secondAttribute="bottom" constant="15" id="Lfg-7g-cR7"/>
                             <constraint firstItem="N83-co-eXL" firstAttribute="trailing" secondItem="3Lk-yA-zGc" secondAttribute="trailing" constant="20" id="MmR-0f-TF5"/>
-                            <constraint firstItem="3Lk-yA-zGc" firstAttribute="top" secondItem="3Xn-Aj-GxZ" secondAttribute="bottom" constant="134" id="a8G-Dl-QUp"/>
-                            <constraint firstItem="3Xn-Aj-GxZ" firstAttribute="leading" secondItem="N83-co-eXL" secondAttribute="leading" constant="20" id="fbq-ig-44o"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="N83-co-eXL"/>
                     </view>
@@ -185,6 +179,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="QYz-SV-ZuS"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Tey-rl-kXq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l1m-bY-xDV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
